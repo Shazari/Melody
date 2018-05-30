@@ -1,0 +1,136 @@
+﻿
+@font-face {
+    font-family: Yekan;
+    
+	src: url('../fonts/Yekan.eot');
+	src: local('☺'), url('../fonts/Yekan.woff') format('woff'), url('../fonts/Yekan.ttf') format('truetype'), url('../fonts/Yekan.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+ul.SocialNetwork{
+    padding:0px;
+    margin:0px;
+}
+
+ul.SocialNetwork li
+{
+    list-style:none;
+    display:inline-block;
+    margin-right:15px;
+    margin-top:0px;
+    
+}
+
+ul.SocialNetwork li a
+{
+    text-decoration:none;
+    font-size:24px;
+    color:#e6e6e6 !important;
+}
+
+ul.SocialNetwork li a:hover
+{
+    color:#f6cb00;
+}
+
+ul.NavInformation li{
+    display:inline-block;
+    margin-top:3px;
+    margin-left:10px;
+}
+
+ul.NavInformation li a
+{
+    color:#ffffff !important;
+    font-size:16px;
+    cursor:default;
+    text-decoration:none;
+}
+
+.TopNav
+{
+    min-height:35px !important;
+    border-bottom: 3px solid #808080;
+    background:#000000;
+}
+
+div.BannerTitle
+{
+    font-size:36px;
+    margin-top:70px;
+}
+
+div.BannerLoginPlace{
+    margin-top:20px;
+}
+.Menu{
+    margin:2px;
+    background-color:#f5a312;
+}
+.Menu>ul li{
+    margin:5px;
+    /*background-color:aqua;*/
+}
+ul>li>a:hover{
+    /*color:aqua;*/
+    
+    
+}
+div#Banner{
+    font-family: Yekan;
+    background:url(../Images/BannerBg.jpg);
+    min-height:200px;
+   
+}
+.carousel-indicators{
+    right:0;
+    margin-right:0;
+}
+.Tabligh{
+    padding-top:15px;
+    
+    /*margin:15px;*/
+}
+.Regtangle{
+    /*width:200px;*/
+    margin-right:6%;
+    border-radius:10px;
+    border:3px solid #f5a312;
+   
+  
+}
+.LastArticles{
+    
+    background-color:#2c2c2c;
+}
+.ATitle{
+    color:white;
+    font-size:20px;
+    background-color:#171717;
+    /*text-align:center;*/
+}
+.ArtContent{
+    border-radius:4px;
+    width:320px;
+    padding:3px;
+}
+.OurFeatures{
+    
+}
+.OFTitle{
+    background-color:#e0e0e0;
+}
+.caption1{
+   
+   margin:2px;
+    border-radius:4px;
+}
+.footer{
+    background-color:black;
+}
+
+.carousel-caption{
+    margin-top:-100px !important;
+}
